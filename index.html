@@ -11,6 +11,17 @@
 <body>
     <h1>hw-03: Interactive Webpage, and Marks and Channels</h1>
 
+    <!-- add button -->
+    <button type = "button" onClick="buttonClicked()">Click me!</button>
+
+    <div id = "button-div"> 
+        Hi count:
+        
+    </div>
+
+
+    <script src="main.js"></script>
+
     <div class = "flexbox">
         <div class = "row">
             <div class = "column">
@@ -19,15 +30,28 @@
             <div class = "column">
                 <h2> Marks </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Mark: Area</li>
                     </ul>
                 <h2> Channels </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Channel 1:color</li>
+                            <ul>
+                                <li> Represents attribute of type quantitative electoral votes </li>
+                                <li> This is a good mapping because color makes the map stand out and helps the user understand that there is data trying to be represented. Otherwise, it would just look like the map of the United States. </li>
+                            </ul>
+                        <li> Channel 2: shape</li>
+                            <ul>
+                                <li> Represents attribute of quantitative votes per state </li>
+                                <li> This is a good channel because it outlines specific states to show contrast and comparison. The small rectangles at the bottom help break up the individual states into more categories to specify how the data is distrbuted within the state. </li>
+                            </ul>
                     </ul>
                 <h2> Colormaps </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Categorical</li>
+                            <ul>
+                                <li> Represents attribute of type political party</li>
+                                <li> This is a good choice because it helps distinguish betweem the two candidates and states to reveal which are more Democratic or Republican. </li>
+                            </ul>
                     </ul>
             </div>
         </div>
@@ -40,15 +64,29 @@
             <div class = "column">
                 <h2> Marks </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Mark1: Points</li>
+                        <li> Mark2: Lines</li>
                     </ul>
                 <h2> Channels </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Channel 1:color</li>
+                            <ul>
+                                <li> Represents attribute of type quantitative angle and speed</li>
+                                <li> This is a good mapping because it helps the user distinguish higher and lower scoring balls. </li>
+                            </ul>
+                        <li> Channel 2: position(horizontal and vertical)</li>
+                            <ul>
+                                <li> Represents categorical attribute of type of ball hit i.e ground, fly, etc. </li>
+                                <li> This is a good channel because it helps distinguish the types of balls hit and the position at which they land. It also shows the differening exit velocities that they were hit.  </li>
+                            </ul>
                     </ul>
                 <h2> Colormaps </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Divergent</li>
+                            <ul>
+                                <li> Represents attribute of type quantitative scoring value. </li>
+                                <li> This is an okay mapping. The colormap can be divergent, but it would be easier to distinguish the scoring value differences with colors that are more distinct. For example, maybe using orange and blue instead. A sequential color map could also work with the darker shade color indicating higher scoring value and the lighter shade color denoting lower scoring value.  </li>
+                            </ul>
                     </ul>
             </div>
         </div>
@@ -61,15 +99,23 @@
             <div class = "column">
                 <h2> Marks </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Mark: Points</li>
                     </ul>
                 <h2> Channels </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Channel 1:color</li>
+                            <ul>
+                                <li> Represents attribute of votes and rating per chronological type year</li>
+                                <li> Using color is a good mapping because it helps distinguish the different votes and rating per year. However, the color choice palette isn't good because it is hard to understand what the different colors represent. </li>
+                            </ul>
                     </ul>
                 <h2> Colormaps </h2>
                     <ul>
-                        <li> Fill in</li>
+                        <li> Divergent</li>
+                            <ul>
+                                <li> Represents attribute of type votes, rating, and year </li> 
+                                <li> This is a bad color map because the colors don't denote a specific meaning to votes vs rating. The blue doesn't mean there are more or higher ratings and vise versa with the red. </li> 
+                            </ul>
                     </ul>
             </div>
         </div>
@@ -77,8 +123,11 @@
 
     <h1>Acknowledgments </h1>
     <ul>
-        <li> Fill in</li>
+         <li><a href="https://www.w3schools.com/html/default.asp">HTML Tutorial on W3 Schools</a></li>
+
+         <li><a href = "https://css-tricks.com/snippets/css/a-guide-to-flexbox/">How to use Flexbox</a></li>
     </ul>
+    </div>
 
 
 </body>
