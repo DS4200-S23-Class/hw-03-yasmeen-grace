@@ -16,7 +16,6 @@ function buttonClicked()
 	//select the element we want to modify
 	let buttonDiv = document.getElementById("button-div");
 
-	
-	buttonDiv.innerHTML = count;
+	buttonDiv.innerHTML = "Hi count: x " + count;
 
 }
